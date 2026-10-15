@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Course Registration</title>
+</head>
+
+<body>
+
+    <h1>Online Course Registration</h1>
+
+    <form action="#" target="_self" method="post">
+
+        <!-- Task 2 & 3: Student Information -->
+
+        <label for="studentName">Student Name:</label>
+        <input type="text"
+               id="studentName"
+               name="studentName"
+               placeholder="Enter your name"
+               required>
+        <br><br>
+
+
+        <label for="email">Email Address:</label>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+        <br><br>
+
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel"
+               id="mobile"
+               name="mobile"
+               placeholder="Enter mobile number"
+               required>
+        <br><br>
+
+
+        <label for="age">Age:</label>
+        <input type="number"
+               id="age"
+               name="age"
+               placeholder="Enter your age"
+               min="1"
+               max="100">
+        <br><br>
+
+
+        <label for="password">Password:</label>
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter password"
+               required>
+        <br><br>
+
+
+        <!-- Task 4: Gender Radio Buttons -->
+
+        <label>Gender:</label>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male"
+               required>
+        <label for="male">Male</label>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+        <!-- Task 5: Skills Checkboxes -->
+
+        <label>Skills:</label>
+
+        <input type="checkbox"
+               id="html"
+               name="skills"
+               value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox"
+               id="css"
+               name="skills"
+               value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox"
+               id="javascript"
+               name="skills"
+               value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <input type="checkbox"
+               id="python"
+               name="skills"
+               value="Python">
+        <label for="python">Python</label>
+
+        <br><br>
+
+
+        <!-- Task 6: Course Dropdown -->
+
+        <label for="course">Select Course:</label>
+
+        <select id="course"
+                name="course"
+                required>
+
+            <option value="">-- Select Course --</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Python Programming">Python Programming</option>
+            <option value="Data Analytics">Data Analytics</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+
+        </select>
+
+        <br><br>
+
+
+        <!-- Task 7: Hidden Input -->
+
+        <input type="hidden"
+               name="formTitle"
+               value="Online Course Registration">
+
+
+        <!-- Task 8: Date and Time -->
+
+        <label for="dob">Date of Birth:</label>
+
+        <input type="date"
+               id="dob"
+               name="dob">
+
+        <br><br>
+
+
+        <label for="classTime">Preferred Class Time:</label>
+
+        <input type="time"
+               id="classTime"
+               name="classTime">
+
+        <br><br>
+
+
+        <!-- Task 9: Address -->
+
+        <label for="address">Address:</label>
+        <br>
+
+        <textarea id="address"
+                  name="address"
+                  rows="5"
+                  cols="40"
+                  placeholder="Enter your address"></textarea>
+
+        <br><br>
+
+
+        <!-- Task 10: File Upload -->
+
+        <label for="document">Upload Document/Photo:</label>
+
+        <input type="file"
+               id="document"
+               name="document">
+
+        <br><br>
+
+
+        <!-- Task 12: Submit and Reset -->
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
